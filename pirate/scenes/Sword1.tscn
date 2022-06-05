@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://pirate/assets/sword/sword1.tres" type="Material" id=1]
+[ext_resource path="res://pirate/assets/sword/sword.glb" type="PackedScene" id=2]
+
+[node name="Sword" groups=["sword"] instance=ExtResource( 2 )]
+transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0, 0 )
+
+[node name="sword" parent="Armature" index="0"]
+material/0 = ExtResource( 1 )

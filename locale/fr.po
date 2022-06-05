@@ -1,0 +1,233 @@
+# Translations template for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-06-05 17:02+0200\n"
+"PO-Revision-Date: 2022-06-05 17:19+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Generated-By: Babel 2.10.1\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:115
+#: ../pirate/scenes/PirateScene.tscn:88
+msgid "Menu"
+msgstr "Menu"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:129
+#: ../pirate/scenes/PirateScene.tscn:102
+msgid "Volume"
+msgstr "Volume"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:169
+#: ../pirate/scenes/PirateScene.tscn:142
+msgid "Continue"
+msgstr "Continue"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:193
+#: ../pirate/scenes/PirateScene.tscn:165
+msgid "1"
+msgstr "1"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:205
+#: ../pirate/scenes/PirateScene.tscn:177
+msgid "2"
+msgstr "2"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:216
+#: ../pirate/scenes/PirateScene.tscn:188
+msgid "3"
+msgstr "3"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:227
+#: ../pirate/scenes/PirateScene.tscn:199
+msgid "4"
+msgstr "4"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:238
+#: ../pirate/scenes/PirateScene.tscn:210
+msgid "5"
+msgstr "5"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:249
+#: ../pirate/scenes/PirateScene.tscn:221
+msgid "6"
+msgstr "6"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:260
+#: ../pirate/scenes/PirateScene.tscn:232
+msgid "7"
+msgstr "7"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:271
+#: ../pirate/scenes/PirateScene.tscn:243
+msgid "8"
+msgstr "8"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:282
+#: ../pirate/scenes/PirateScene.tscn:254
+msgid "9"
+msgstr "9"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:293
+#: ../pirate/scenes/PirateScene.tscn:265
+msgid "10"
+msgstr "10"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:304
+#: ../pirate/scenes/PirateScene.tscn:276
+msgid "11"
+msgstr "11"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:315
+#: ../pirate/scenes/PirateScene.tscn:287
+msgid "12"
+msgstr "12"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:326
+#: ../pirate/scenes/PirateScene.tscn:298
+msgid "13"
+msgstr "13"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:367
+#: ../crocodile/scenes/CrocodileScene.tscn:379
+#: ../crocodile/scenes/CrocodileScene.tscn:391
+#: ../crocodile/scenes/CrocodileScene.tscn:403
+#: ../pirate/scenes/PirateScene.tscn:459 ../pirate/scenes/PirateScene.tscn:471
+#: ../pirate/scenes/PirateScene.tscn:483 ../pirate/scenes/PirateScene.tscn:495
+msgid "Change"
+msgstr "Changer"
+
+#: ../crocodile/scenes/CrocodileScene.tscn:413
+#: ../pirate/scenes/PirateScene.tscn:505
+msgid "Play"
+msgstr "Jouer"
+
+#: ../crocodile/scripts/CrocodileScene.gd:63
+#: ../pirate/scripts/PirateScene.gd:68
+msgid "Choose players"
+msgstr "Choix des joueurs"
+
+#: ../crocodile/scripts/CrocodileScene.gd:103
+msgid "Tooth chosen:"
+msgstr "Dent choisie:"
+
+#: ../crocodile/scripts/CrocodileScene.gd:120
+msgid "The wrong tooth was the "
+msgstr "La mauvaise dent est la "
+
+#: ../crocodile/scripts/CrocodileScene.gd:130
+#: ../pirate/scripts/PirateScene.gd:160
+#, python-format
+msgid "The %color player is eliminated"
+msgstr "Le joueur %color est éliminé"
+
+#: ../crocodile/scripts/CrocodileScene.gd:133
+#: ../pirate/scripts/PirateScene.gd:163
+#, python-format
+msgid "The %color player win"
+msgstr "Le joueur %color gagne"
+
+#: ../crocodile/scripts/CrocodileScene.gd:154
+#: ../pirate/scripts/PirateScene.gd:185
+#, python-format
+msgid "The %color player plays"
+msgstr "Le joueur %color joue"
+
+#: ../crocodile/scripts/CrocodileScene.gd:161
+#: ../pirate/scripts/PirateScene.gd:192
+msgid "red"
+msgstr "rouge"
+
+#: ../crocodile/scripts/CrocodileScene.gd:163
+#: ../pirate/scripts/PirateScene.gd:194
+msgid "blue"
+msgstr "bleu"
+
+#: ../crocodile/scripts/CrocodileScene.gd:165
+#: ../pirate/scripts/PirateScene.gd:196
+msgid "green"
+msgstr "vert"
+
+#: ../crocodile/scripts/CrocodileScene.gd:167
+#: ../pirate/scripts/PirateScene.gd:198
+msgid "yellow"
+msgstr "jaune"
+
+#: ../pirate/scenes/PirateScene.tscn:309
+msgid "14"
+msgstr "14"
+
+#: ../pirate/scenes/PirateScene.tscn:320
+msgid "15"
+msgstr "15"
+
+#: ../pirate/scenes/PirateScene.tscn:331
+msgid "16"
+msgstr "16"
+
+#: ../pirate/scenes/PirateScene.tscn:342
+msgid "17"
+msgstr "17"
+
+#: ../pirate/scenes/PirateScene.tscn:353
+msgid "18"
+msgstr "18"
+
+#: ../pirate/scenes/PirateScene.tscn:364
+msgid "19"
+msgstr "19"
+
+#: ../pirate/scenes/PirateScene.tscn:375
+msgid "20"
+msgstr "20"
+
+#: ../pirate/scenes/PirateScene.tscn:386
+msgid "21"
+msgstr "21"
+
+#: ../pirate/scenes/PirateScene.tscn:397
+msgid "22"
+msgstr "22"
+
+#: ../pirate/scenes/PirateScene.tscn:408
+msgid "23"
+msgstr "23"
+
+#: ../pirate/scenes/PirateScene.tscn:419
+msgid "24"
+msgstr "24"
+
+#: ../pirate/scripts/PirateScene.gd:108
+msgid "Sword chosen:"
+msgstr "Epée choisie:"
+
+#: ../pirate/scripts/PirateScene.gd:149
+msgid "The wrong sword was the "
+msgstr "La mauvaise épée est la "
+
+#: ../scenes/Menu.tscn:34
+msgid "PIRATE"
+msgstr "PIRATE"
+
+#: ../scenes/Menu.tscn:48
+msgid "CROCODILE"
+msgstr "CROCODILE"
+
+#: ../scenes/Menu.tscn:63
+msgid "OPTIONS"
+msgstr "OPTIONS"
+
+#: ../scenes/Menu.tscn:77
+msgid "QUIT"
+msgstr "QUITTER"

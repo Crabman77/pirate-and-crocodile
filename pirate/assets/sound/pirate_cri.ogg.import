@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/pirate_cri.ogg-6d05ba4afa4c23fe4c2426701570d39d.oggstr"
+
+[deps]
+
+source_file="res://pirate/assets/sound/pirate_cri.ogg"
+dest_files=[ "res://.import/pirate_cri.ogg-6d05ba4afa4c23fe4c2426701570d39d.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

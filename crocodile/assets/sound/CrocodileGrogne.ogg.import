@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/CrocodileGrogne.ogg-4eedd3048fa894fd478efb7de54b3b89.oggstr"
+
+[deps]
+
+source_file="res://crocodile/assets/sound/CrocodileGrogne.ogg"
+dest_files=[ "res://.import/CrocodileGrogne.ogg-4eedd3048fa894fd478efb7de54b3b89.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

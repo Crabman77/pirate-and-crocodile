@@ -1,0 +1,96 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://scripts/Player.gd" type="Script" id=2]
+[ext_resource path="res://pirate/assets/sprites/sprite_players.png" type="Texture" id=3]
+
+[sub_resource type="AtlasTexture" id=15]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 768, 384, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=16]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 640, 384, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=17]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 768, 384, 128, 128 )
+
+[sub_resource type="SpriteFrames" id=10]
+animations = [ {
+"frames": [ SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), null ],
+"loop": true,
+"name": "isplaying",
+"speed": 5.0
+}, {
+"frames": [ null ],
+"loop": false,
+"name": "iswaiting",
+"speed": 5.0
+} ]
+
+[sub_resource type="AtlasTexture" id=18]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 512, 384, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=22]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 128, 384, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=21]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 384, 384, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=19]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 0, 384, 128, 128 )
+
+[sub_resource type="AtlasTexture" id=20]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 256, 384, 128, 128 )
+
+[sub_resource type="SpriteFrames" id=9]
+animations = [ {
+"frames": [ SubResource( 18 ) ],
+"loop": false,
+"name": "disabled",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 22 ) ],
+"loop": false,
+"name": "player_loose",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 21 ) ],
+"loop": false,
+"name": "nonplayer_loose",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 19 ) ],
+"loop": false,
+"name": "player",
+"speed": 5.0
+}, {
+"frames": [ SubResource( 20 ) ],
+"loop": false,
+"name": "nonplayer",
+"speed": 5.0
+} ]
+
+[node name="player4" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 10 )
+animation = "iswaiting"
+
+[node name="player_tatus" type="AnimatedSprite" parent="."]
+frames = SubResource( 9 )
+animation = "disabled"
